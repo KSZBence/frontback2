@@ -1,0 +1,40 @@
+.valaszok button{
+    width: 15vw;
+    padding: 5vw;
+    background-color: aliceblue;
+}
+
+.valaszok{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.valasz{
+    margin: auto;
+    margin-top: 1vw;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1000px) {
+    .valaszok button{
+        width: 15vw;
+        padding: 2vw;
+    }
+    
+    .valaszok{
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    
+    .valasz{
+        margin: auto;
+        margin-top: 1vw;
+        cursor: pointer;
+    }
+}
